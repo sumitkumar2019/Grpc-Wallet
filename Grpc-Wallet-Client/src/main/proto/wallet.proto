@@ -1,0 +1,75 @@
+/**
+* proto buffer 3 syntaxes used
+**/
+
+syntax = "proto3";
+
+/**
+* Java Generated Code Package
+**/
+option java_package = "com.app.wallet.grpc.service";
+
+/**
+*	Wallet Service Interface Definition
+*	1. Deposit Money
+*	2. Withdraw Money
+*	3. Balance Request
+**/
+
+service Wallet{
+    rpc createWallet( CreateRequest ) returns ( CreateResponse ) {}
+    rpc deposit ( TransactionRequest ) returns ( TransactionResponse ) {}
+    rpc withdraw ( TransactionRequest ) returns ( TransactionResponse ) {}
+    rpc balance ( BalanceRequest ) returns ( BalanceResponse ) {}
+}
+
+/**
+*	Transaction Request Message
+**/
+message TransactionRequest {
+    int32 userId = 1;
+    double amount = 2;
+    string currency = 3;
+}
+
+/**
+*	Transaction Response Message
+**/
+message TransactionResponse {
+  string status = 1;
+}
+
+
+/**
+*	Create Request Message
+**/
+message CreateRequest {
+    string name = 1;
+    double amount = 2;
+    string currency = 3;
+}
+
+/**
+*	Create Response Message
+**/
+message CreateResponse {
+  int32 id = 1;
+  string status = 2;
+}
+
+
+/**
+*	Balance Request Message
+**/
+message BalanceRequest {
+    int32 userId = 1;
+}
+
+/**
+*	Balance Response Message
+**/
+message BalanceResponse {
+  double amount = 1;
+  string currency = 2;
+  string status = 3;
+}

@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.app.wallet.server.integration.test.WalletServerDBIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.app.wallet.server.integration.test.WalletServerDBIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.app.wallet.server.integration.test.html">com.app.wallet.server.integration.test</a> &gt; WalletServerDBIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.542s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">grpcServerDatabaseintegrationTest</td>
+<td class="success">3.542s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[INFO ] 2018-08-18 16:59:23.917 [Test worker] DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2018-08-18 16:59:23.954 [Test worker] DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e9f5d64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@27a02b0f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@e182432, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2dd27196, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49427d35]
+[INFO ] 2018-08-18 16:59:24.102 [Test worker] GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@2d25a325: startup date [Sat Aug 18 16:59:24 GMT+02:00 2018]; root of context hierarchy
+[INFO ] 2018-08-18 16:59:24.701 [Test worker] ApplicationConfiguration - Configuring Hibernate Session Factory Bean
+[INFO ] 2018-08-18 16:59:24.707 [Test worker] ApplicationConfiguration - Configuring Data Source Bean
+[INFO ] 2018-08-18 16:59:24.727 [Test worker] DriverManagerDataSource - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+[INFO ] 2018-08-18 16:59:24.728 [Test worker] ApplicationConfiguration - Data Source Configured Succesfully
+[INFO ] 2018-08-18 16:59:24.756 [Test worker] ApplicationConfiguration - Configuring Hibernate Properties
+[INFO ] 2018-08-18 16:59:24.757 [Test worker] ApplicationConfiguration - Hibernate Properties Configured Succesfully
+[INFO ] 2018-08-18 16:59:24.781 [Test worker] ApplicationConfiguration - Hibernate Session Factory Configured Succesfully
+[INFO ] 2018-08-18 16:59:24.984 [Test worker] Version - HHH000412: Hibernate Core {5.3.4.Final}
+[INFO ] 2018-08-18 16:59:24.987 [Test worker] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-08-18 16:59:25.205 [Test worker] Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2018-08-18 16:59:26.134 [Test worker] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO ] 2018-08-18 16:59:27.497 [Test worker] SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@13baa6d'
+[INFO ] 2018-08-18 16:59:27.614 [Test worker] ApplicationConfiguration - Configuring Hibernate Transaction Manager Bean
+[INFO ] 2018-08-18 16:59:27.645 [Test worker] ApplicationConfiguration - Hibernate Transaction Manager Configured Succesfully
+[INFO ] 2018-08-18 16:59:27.668 [Test worker] HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@3fcc96cd] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO ] 2018-08-18 16:59:28.223 [Test worker] WalletServerService - Creating wallet for User:Test
+[INFO ] 2018-08-18 16:59:28.223 [Test worker] WalletServerService - New wallet User with properites: name: Test Currency: USD Amount: 0.0
+[INFO ] 2018-08-18 16:59:28.357 [Test worker] WalletRepository - Creating Wallet for User: Wallet [name=Test, balance=0.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.357 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.436 [Test worker] WalletRepository - User Wallet Created Succesfully: Wallet [name=Test, balance=0.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.447 [Test worker] WalletServerService - Wallet Created Succesfully with User Id: 1
+[INFO ] 2018-08-18 16:59:28.460 [Test worker] WalletServerService - Starting Withdrawl Service for Amount: 200.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:28.496 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.497 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.516 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=0.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.518 [Test worker] WalletServerService - InsufficientFundException: Transcation cannot be completed : Insufficient Fund
+[INFO ] 2018-08-18 16:59:28.520 [Test worker] WalletServerService - Wallet Withdrawl Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:28.520 [Test worker] WalletServerService - Starting Deposit Service for Amount: 100.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:28.566 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.566 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.571 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=0.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.575 [Test worker] WalletServerService - Total Amount to be deposited: 100.0
+[INFO ] 2018-08-18 16:59:28.616 [Test worker] WalletRepository - Loading Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.616 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.621 [Test worker] WalletRepository - Updating Wallet: Wallet [name=Test, balance=100.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.622 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.627 [Test worker] WalletRepository - Wallet Updated Successfully: Wallet [name=Test, balance=100.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.650 [Test worker] WalletServerService - Wallet Deposit Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:28.655 [Test worker] WalletServerService - Balance Service started for User Id: 1
+[INFO ] 2018-08-18 16:59:28.662 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.663 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.666 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=100.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.670 [Test worker] WalletServerService - Balance Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:28.671 [Test worker] WalletServerService - Starting Withdrawl Service for Amount: 200.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:28.677 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.677 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.680 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=100.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.682 [Test worker] WalletServerService - InsufficientFundException: Transcation cannot be completed : Insufficient Fund
+[INFO ] 2018-08-18 16:59:28.683 [Test worker] WalletServerService - Wallet Withdrawl Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:28.684 [Test worker] WalletServerService - Starting Deposit Service for Amount: 100.0 Currency: EUR for User Id: 1
+[INFO ] 2018-08-18 16:59:28.722 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:28.722 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:28.725 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=100.0, currency=USD]
+[INFO ] 2018-08-18 16:59:28.732 [Test worker] CurrencyExchangeHelper - Currency Conversion started from USD to EUR
+[INFO ] 2018-08-18 16:59:30.323 [Test worker] CurrencyExchangeHelper - Currency Converted to EUR Successfully
+[INFO ] 2018-08-18 16:59:30.323 [Test worker] WalletServerService - Total Amount to be deposited: 185.48000000000002
+[INFO ] 2018-08-18 16:59:30.571 [Test worker] WalletRepository - Loading Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.571 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.574 [Test worker] WalletRepository - Updating Wallet: Wallet [name=Test, balance=185.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.574 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.574 [Test worker] WalletRepository - Wallet Updated Successfully: Wallet [name=Test, balance=185.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.579 [Test worker] WalletServerService - Wallet Deposit Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.580 [Test worker] WalletServerService - Balance Service started for User Id: 1
+[INFO ] 2018-08-18 16:59:30.585 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.586 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.589 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=185.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.596 [Test worker] WalletServerService - Balance Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.596 [Test worker] CurrencyExchangeHelper - Currency Conversion started from USD to EUR
+[INFO ] 2018-08-18 16:59:30.599 [Test worker] CurrencyExchangeHelper - Currency Converted to EUR Successfully
+[INFO ] 2018-08-18 16:59:30.599 [Test worker] WalletServerService - Starting Withdrawl Service for Amount: 200.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:30.606 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.606 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.609 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=185.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.613 [Test worker] WalletServerService - InsufficientFundException: Transcation cannot be completed : Insufficient Fund
+[INFO ] 2018-08-18 16:59:30.613 [Test worker] WalletServerService - Wallet Withdrawl Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.614 [Test worker] WalletServerService - Starting Deposit Service for Amount: 100.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:30.628 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.628 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.632 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=185.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.668 [Test worker] WalletServerService - Total Amount to be deposited: 285.48
+[INFO ] 2018-08-18 16:59:30.720 [Test worker] WalletRepository - Loading Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.720 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.723 [Test worker] WalletRepository - Updating Wallet: Wallet [name=Test, balance=285.48, currency=USD]
+[INFO ] 2018-08-18 16:59:30.723 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.723 [Test worker] WalletRepository - Wallet Updated Successfully: Wallet [name=Test, balance=285.48, currency=USD]
+[INFO ] 2018-08-18 16:59:30.726 [Test worker] WalletServerService - Wallet Deposit Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.727 [Test worker] WalletServerService - Balance Service started for User Id: 1
+[INFO ] 2018-08-18 16:59:30.770 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.770 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.825 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=285.48, currency=USD]
+[INFO ] 2018-08-18 16:59:30.827 [Test worker] WalletServerService - Balance Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.827 [Test worker] WalletServerService - Starting Withdrawl Service for Amount: 200.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:30.833 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.833 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.836 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=285.48, currency=USD]
+[INFO ] 2018-08-18 16:59:30.837 [Test worker] WalletServerService - Total Amount to be withdrawn: 85.48000000000002
+[INFO ] 2018-08-18 16:59:30.842 [Test worker] WalletRepository - Loading Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.842 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.845 [Test worker] WalletRepository - Updating Wallet: Wallet [name=Test, balance=85.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.845 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.845 [Test worker] WalletRepository - Wallet Updated Successfully: Wallet [name=Test, balance=85.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.848 [Test worker] WalletServerService - Wallet Withdrawl Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.849 [Test worker] WalletServerService - Balance Service started for User Id: 1
+[INFO ] 2018-08-18 16:59:30.881 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.881 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.884 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=85.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.886 [Test worker] WalletServerService - Balance Response for User Id:1 Sent Successfully
+[INFO ] 2018-08-18 16:59:30.886 [Test worker] WalletServerService - Starting Withdrawl Service for Amount: 200.0 Currency: USD for User Id: 1
+[INFO ] 2018-08-18 16:59:30.959 [Test worker] WalletRepository - Getting Wallet for User with Id: 1
+[INFO ] 2018-08-18 16:59:30.959 [Test worker] WalletRepository - Getting DB Current Session
+[INFO ] 2018-08-18 16:59:30.961 [Test worker] WalletRepository - Wallet Returned Successfully: Wallet [name=Test, balance=85.48000000000002, currency=USD]
+[INFO ] 2018-08-18 16:59:30.962 [Test worker] WalletServerService - InsufficientFundException: Transcation cannot be completed : Insufficient Fund
+[INFO ] 2018-08-18 16:59:30.963 [Test worker] WalletServerService - Wallet Withdrawl Response for User Id:1 Sent Successfully
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for IMFHistoricRateProvider from https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y
+java.net.UnknownHostException: www.imf.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService.execute(LoadRemoteDataLoaderService.java:41)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadDataRemote(DefaultLoaderServiceFacade.java:51)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.registerData(DefaultLoaderService.java:165)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.initResource(LoaderConfigurator.java:92)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.load(LoaderConfigurator.java:59)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.initialize(DefaultLoaderService.java:101)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.&lt;init&gt;(DefaultLoaderService.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at org.javamoney.moneta.convert.imf.IMFRateProvider.&lt;init&gt;(IMFRateProvider.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService execute
+INFO: The exchange rate with resourceId IMFHistoricRateProvider was started remotely
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBHistoric90RateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService.execute(LoadRemoteDataLoaderService.java:41)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadDataRemote(DefaultLoaderServiceFacade.java:51)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.registerData(DefaultLoaderService.java:165)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.initResource(LoaderConfigurator.java:92)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.load(LoaderConfigurator.java:59)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.initialize(DefaultLoaderService.java:101)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.&lt;init&gt;(DefaultLoaderService.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at org.javamoney.moneta.convert.imf.IMFRateProvider.&lt;init&gt;(IMFRateProvider.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService execute
+INFO: The exchange rate with resourceId ECBHistoric90RateProvider was started remotely
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBHistoric90RateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.ScheduledDataLoaderService$1.run(ScheduledDataLoaderService.java:46)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for IMFRateProvider from https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y
+java.net.UnknownHostException: www.imf.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService.execute(LoadRemoteDataLoaderService.java:41)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadDataRemote(DefaultLoaderServiceFacade.java:51)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.registerData(DefaultLoaderService.java:165)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.initResource(LoaderConfigurator.java:92)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.load(LoaderConfigurator.java:59)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.initialize(DefaultLoaderService.java:101)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.&lt;init&gt;(DefaultLoaderService.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at org.javamoney.moneta.convert.imf.IMFRateProvider.&lt;init&gt;(IMFRateProvider.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService execute
+INFO: The exchange rate with resourceId IMFRateProvider was started remotely
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for IMFRateProvider from https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y
+java.net.UnknownHostException: www.imf.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.ScheduledDataLoaderService$1.run(ScheduledDataLoaderService.java:46)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBCurrentRateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService.execute(LoadRemoteDataLoaderService.java:41)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadDataRemote(DefaultLoaderServiceFacade.java:51)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.registerData(DefaultLoaderService.java:165)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.initResource(LoaderConfigurator.java:92)
+	at org.javamoney.moneta.internal.loader.LoaderConfigurator.load(LoaderConfigurator.java:59)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.initialize(DefaultLoaderService.java:101)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.&lt;init&gt;(DefaultLoaderService.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at org.javamoney.moneta.convert.imf.IMFRateProvider.&lt;init&gt;(IMFRateProvider.java:59)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadRemoteDataLoaderService execute
+INFO: The exchange rate with resourceId ECBCurrentRateProvider was started remotely
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for IMFRateProvider from https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y
+java.net.UnknownHostException: www.imf.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.LoadDataLoaderService.execute(LoadDataLoaderService.java:39)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadData(DefaultLoaderServiceFacade.java:43)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.loadData(DefaultLoaderService.java:264)
+	at org.javamoney.moneta.convert.imf.IMFRateProvider.&lt;init&gt;(IMFRateProvider.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: Read data from: [https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBCurrentRateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.ScheduledDataLoaderService$1.run(ScheduledDataLoaderService.java:46)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.convert.imf.IMFAbstractRateProvider newDataLoaded
+INFO: Loaded IMFRateProvider exchange rates for days:50
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: New data successfully loaded from: [https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for IMFHistoricRateProvider from https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y
+java.net.UnknownHostException: www.imf.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.LoadDataLoaderService.execute(LoadDataLoaderService.java:39)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadData(DefaultLoaderServiceFacade.java:43)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.loadData(DefaultLoaderService.java:264)
+	at org.javamoney.moneta.convert.imf.IMFHistoricRateProvider.&lt;init&gt;(IMFHistoricRateProvider.java:66)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getServices(Bootstrap.java:102)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.reload(DefaultMonetaryConversionsSingletonSpi.java:64)
+	at org.javamoney.moneta.convert.internal.DefaultMonetaryConversionsSingletonSpi.&lt;init&gt;(DefaultMonetaryConversionsSingletonSpi.java:56)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.loadServices(PriorityAwareServiceProvider.java:98)
+	at org.javamoney.moneta.internal.PriorityAwareServiceProvider.getServices(PriorityAwareServiceProvider.java:65)
+	at javax.money.spi.Bootstrap.getService(Bootstrap.java:113)
+	at javax.money.convert.MonetaryConversions.getMonetaryConversionsSpi(MonetaryConversions.java:59)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:85)
+	at javax.money.convert.MonetaryConversions.getConversion(MonetaryConversions.java:105)
+	at com.app.wallet.server.helper.CurrencyExchangeHelper.getExchangedCurrencyAmount(CurrencyExchangeHelper.java:36)
+	at com.app.wallet.server.service.WalletServerService.deposit(WalletServerService.java:118)
+	at com.app.wallet.grpc.service.WalletGrpc$MethodHandlers.invoke(WalletGrpc.java:423)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:707)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:718)
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:633)
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67)
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44)
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22)
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44)
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:272)
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:178)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:120)
+	at com.app.wallet.grpc.service.WalletGrpc$WalletBlockingStub.deposit(WalletGrpc.java:326)
+	at com.app.wallet.server.integration.test.WalletServerDBIntegrationTest.grpcServerDatabaseintegrationTest(WalletServerDBIntegrationTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: Read data from: [https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.convert.imf.IMFAbstractRateProvider newDataLoaded
+INFO: Loaded IMFHistoricRateProvider exchange rates for days:50
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: New data successfully loaded from: [https://www.imf.org/external/np/fin/data/rms_five.aspx?tsvflag=Y]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBCurrentRateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.LoadDataLoaderService.execute(LoadDataLoaderService.java:39)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadData(DefaultLoaderServiceFacade.java:43)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.lambda$loadDataAsync$0(DefaultLoaderService.java:269)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: Read data from: [https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBHistoric90RateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.LoadDataLoaderService.execute(LoadDataLoaderService.java:39)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadData(DefaultLoaderServiceFacade.java:43)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.lambda$loadDataAsync$0(DefaultLoaderService.java:269)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: Read data from: [https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml]
+Aug 18, 2018 4:59:29 PM org.javamoney.moneta.internal.loader.LoadableResource load
+INFO: Failed to load resource input for ECBHistoricRateProvider from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml
+java.net.UnknownHostException: www.ecb.europa.eu
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:347)
+	at org.javamoney.moneta.internal.loader.LoadableResource.loadRemote(LoadableResource.java:228)
+	at org.javamoney.moneta.internal.loader.LoadableResource.shouldReadDataFromFallback(LoadableResource.java:154)
+	at org.javamoney.moneta.internal.loader.LoadableResource.load(LoadableResource.java:146)
+	at org.javamoney.moneta.internal.loader.LoadDataLoaderService.execute(LoadDataLoaderService.java:39)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderServiceFacade.loadData(DefaultLoaderServiceFacade.java:43)
+	at org.javamoney.moneta.internal.loader.DefaultLoaderService.lambda$loadDataAsync$0(DefaultLoaderService.java:269)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: Read data from: [https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml]
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.convert.ecb.ECBAbstractRateProvider newDataLoaded
+INFO: Loaded ECBCurrentRateProvider exchange rates for days:1
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: New data successfully loaded from: [https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml]
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.DefaultMonetaryContextFactory createMonetaryContextNonNullConfig
+INFO: Using custom MathContext: precision=256, roundingMode=HALF_EVEN
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.convert.ecb.ECBAbstractRateProvider newDataLoaded
+INFO: Loaded ECBHistoric90RateProvider exchange rates for days:63
+Aug 18, 2018 4:59:30 PM org.javamoney.moneta.internal.loader.LoadDataLoaderService execute
+INFO: New data successfully loaded from: [https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.9</a> at Aug 18, 2018 4:59:34 PM</p>
+</div>
+</div>
+</body>
+</html>

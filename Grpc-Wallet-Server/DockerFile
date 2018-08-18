@@ -1,0 +1,11 @@
+# Using open jdk 8 image from docker hub
+FROM openjdk:8
+
+# adding Application jar and renaming it to app.jar
+ADD build/libs/Grpc-Wallet-Server-0.0.1-SNAPSHOT-all.jar Grpc-Wallet-Server-0.0.1-SNAPSHOT-all.jar
+
+# Exposing the port which app will use
+EXPOSE 50051
+
+#Entry point of application
+CMD exec java -jar Grpc-Wallet-Server-0.0.1-SNAPSHOT-all.jar
