@@ -132,4 +132,5 @@ mysql> FLUSH PRIVILEGES;
 <b>Spring<br></b>
 <b>Hibernate<br></b>
 
+#Note
 <b> Total transaction RPC/s = 89 Approx  ({Total Count of RPC in 60 seconds}/60) </b>
